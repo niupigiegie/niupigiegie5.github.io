@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/xiangqingye.css">
+    <title>Super Carry Doinb</title>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="header position-re">
+        <div class="inner">
+			<div class="login">
+				<a href="denglu.html" >登录或注册</a>
+			</div>
+			
+            <div class="navs">
+                <a href="fanszhongxin.html" class="joinus" >粉丝中心</a>
+               	<a href="xiangqing.html" class="nav">俱乐部</a>
+               	 <a href="#" class="nav">L-LIVE</a>  
+				 <div class="nav" id="mainM">
+					 <a href="#">相关赛事&nbsp;</a>
+					 <div class="subnav" id="subM" style="display:none;">
+						 <a href="#">lpl春季赛</a>
+						 <a href="#">lpl夏季赛</a>
+						 <a href="#">全球总决赛</a>
+					 </div>
+				 </div>
+               	 <a href="#" class="nav">我的关注</a>
+               	 <a href="#" class="nav"  >赛况数据</a>
+               	 <a href="shouye.html" class="nav" id="current">首页</a>
+            </div>
+        </div>
+    </div>
+	
+	<!--导航栏2-->
+	<div class="header2">
+		<!-- 导航栏2左边部分 -->
+		<div class="header2left">
+			<a href="shouye.html">赛事首页</a>
+			&nbsp; / &nbsp;
+			<a href="#">俱乐部列表</a>
+			&nbsp; / &nbsp;
+			<span style="color:#d1ab57">FPX</span>
+		</div>
+
+		<!--搜索-->
+		<span class="container position-re" id="tou">
+		<div class="parent position-ab" >
+			<div id="searchO">
+				<input type="text" class="search position-ab" placeholder="搜索">  	
+				<input type="button" class="btn">	
+			</div>
+		</div>
+		</span>
+	</div>
+    
+	<!-- 页面内容区 -->
+	<div class="content">
+		<!-- 战队简介部分 -->
+		<div class="middle">
+			<div class="middlect">
+				<div class="middleleft">
+					<img src="img/middleleft.png">
+				</div>
+				<div class="middleright">
+					<h3 class="team_name">FPX</h3>
+					<p class="team_en_name">FunPlusPhoenix</p>
+					<div class="team_desc">
+						FPX电子竞技俱乐部（FunPlusPhoenix）成立于2017年，现LPL联盟成员之一。2021赛季，FPX以全新的品牌形象跟大家见面。新LOGO将凤凰图腾抽象化，从东方起飞，以急速冲击的动势在燃烧中烙印到FPX三个字母上，代表了FPX“凤出东方，凰鸣四海”的愿景和至死不屈的涅槃精神。2017年12月，FPX电子竞技俱乐部正式成立并宣布进军LPL。2019年，FPX在LPL春、夏季赛均获常规赛第一名，并最终获得2019LPL夏季赛冠军。同年11月10日，FPX斩获2019英雄联盟全球总决赛冠军。
+					</div>
+				</div>
+			</div>
+		</div>
+
+	    <div style="background: url(img/登录bg.jpg);background-size: 100% 100%;">
+			<!-- 现役成员 -->
+			<div class="member">
+				<h3 class="member_h3">现役成员</h3>
+				<ul class="clearfix">
+					<li class="fl">
+						<a href="#">
+							<div class="pic">
+								<img src="img/doinb.png">
+								<span class="label">中单</span>
+							</div>
+							<div class="name">
+								<p class="enname">Doinb</p>
+							</div>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<div class="pic">
+								<img src="img/nuguri.png">
+								<span class="label">上单</span>
+							</div>
+							<div class="name">
+								<p class="enname">Nuguri</p>
+							</div>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<div class="pic">
+								<img src="img/tian.png">
+								<span class="label">打野</span>
+							</div>
+							<div class="name">
+								<p class="enname">Tian</p>
+							</div>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<div class="pic">
+								<img src="img/lwx.png">
+								<span class="label">ADC</span>
+							</div>
+							<div class="name">
+								<p class="enname">Lwx</p>
+							</div>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<div class="pic">
+								<img src="img/crisp.png">
+								<span class="label">辅助</span>
+							</div>
+							<div class="name">
+								<p class="enname">Crisp</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 战队数据 -->
+			<div class="data" style="width: 1240px;height: 607px;margin: 0 auto;">
+				<h3 class="data_h3">战队数据</h3>
+				<div class="team_data" style="width: 1240px;height: 530px;margin: 0 auto;padding-top: 20px;">
+					<!-- 表格 -->
+					<table class="data_table" style="border-collapse: collapse; width: 1240px;margin: 0 auto;">
+						<thead style="width: 1224px;">
+							<tr>
+								<th>赛事名称</th>
+								<th>赛事阶段</th>
+								<th>出场次数</th>
+								<th>胜/负</th>
+								<th>胜率</th>
+								<th>总击杀（场均）</th>
+								<th>总死亡（场均）</th>
+								<th>场均插眼</th>
+								<th>场均排眼</th>
+								<th>场均金钱</th>
+								<th>场均小龙</th>
+								<th>场均大龙</th>
+							</tr>
+						</thead>
+
+						<!-- 设置tbody右侧滑轮时：1.把tbody设置成display:block，然后就对其高度设置一个固定值，overflow设置成auto。
+						　　				2.把thead的tr设置成display:block。
+						　　				3.因为都设置成block所以要给td手动添加宽度 width:200px -->
+
+						<tbody style="height: 470px;overflow-y:scroll;display:inline-block;">
+							<tr class="line">
+								<td class="tit_name1">2020职业联赛</td>
+								<td class="tit_name2">春季赛常规赛</td>
+								<td>40</td>
+								<td>27<span class="tablemin">/</span>13</td>
+								<td>67.50<span class="tablemin">%</span></td>
+								<td>606<span class="tablemin">（15）</span></td>
+								<td>427<span class="tablemin">（10）</span></td>
+								<td>114</td>
+								<td>49</td>
+								<td>56918</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020职业联赛</td>
+								<td class="tit_name2">春季赛季后赛</td>
+								<td>10</td>
+								<td>6<span class="tablemin">/</span>13</td>
+								<td>60.00<span class="tablemin">%</span></td>
+								<td>140<span class="tablemin">（14）</span></td>
+								<td>114<span class="tablemin">（11）</span></td>
+								<td>117</td>
+								<td>43</td>
+								<td>60224</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020职业联赛</td>
+								<td class="tit_name2">夏季赛常规赛</td>
+								<td>41</td>
+								<td>22<span class="tablemin">/</span>19</td>
+								<td>53.66<span class="tablemin">%</span></td>
+								<td>559<span class="tablemin">（13）</span></td>
+								<td>546<span class="tablemin">（13）</span></td>
+								<td>111</td>
+								<td>48</td>
+								<td>56806</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020职业联赛</td>
+								<td class="tit_name2">夏季赛季后赛</td>
+								<td>4</td>
+								<td>1<span class="tablemin">/</span>3</td>
+								<td>25.00<span class="tablemin">%</span></td>
+								<td>43<span class="tablemin">（10）</span></td>
+								<td>65<span class="tablemin">（16）</span></td>
+								<td>109</td>
+								<td>39</td>
+								<td>54579</td>
+								<td>2</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020职业联赛</td>
+								<td></td>
+								<td>5</td>
+								<td>2<span class="tablemin">/</span>3</td>
+								<td>40.00<span class="tablemin">%</span></td>
+								<td>79<span class="tablemin">(15)</span></td>
+								<td>77<span class="tablemin">(15)</span></td>
+								<td>103</td>
+								<td>44</td>
+								<td>56783</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020德玛西亚杯</td>
+								<td class="tit_name2">淘汰赛</td>
+								<td>3</td>
+								<td>0<span class="tablemin">/</span>3</td>
+								<td>0.00<span class="tablemin">%</span></td>
+								<td>40<span class="tablemin">(13)</span></td>
+								<td>84<span class="tablemin">(28)</span></td>
+								<td>99</td>
+								<td>38</td>
+								<td>53848</td>
+								<td>1</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2020德玛西亚杯</td>
+								<td class="tit_name2">小组赛</td>
+								<td>4</td>
+								<td>3<span class="tablemin">/</span>1</td>
+								<td>75.00<span class="tablemin">%</span></td>
+								<td>73<span class="tablemin">（18）</span></td>
+								<td>36<span class="tablemin">（9）</span></td>
+								<td>85</td>
+								<td>27</td>
+								<td>49910</td>
+								<td>1</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2021职业联赛</td>
+								<td class="tit_name2">春季赛常规赛</td>
+								<td>35</td>
+								<td>24<span class="tablemin">/</span>11</td>
+								<td>68.57<span class="tablemin">%</span></td>
+								<td>568<span class="tablemin">（16）</span></td>
+								<td>437<span class="tablemin">（12）</span></td>
+								<td>93</td>
+								<td>41</td>
+								<td>56120</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2021职业联赛</td>
+								<td class="tit_name2">春季赛季后赛</td>
+								<td>20</td>
+								<td>13<span class="tablemin">/</span>7</td>
+								<td>65.00<span class="tablemin">%</span></td>
+								<td>267<span class="tablemin">（13）</span></td>
+								<td>271<span class="tablemin">（13）</span></td>
+								<td>100</td>
+								<td>44</td>
+								<td>55135</td>
+								<td>2</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td class="tit_name1">2021职业联赛</td>
+								<td class="tit_name2">夏季赛常规赛</td>
+								<td>10</td>
+								<td>7<span class="tablemin">/</span>3</td>
+								<td>70.00<span class="tablemin">%</span></td>
+								<td>159<span class="tablemin">（15）</span></td>
+								<td>124<span class="tablemin">（12）</span></td>
+								<td>102</td>
+								<td>51</td>
+								<td>57737</td>
+								<td>3</td>
+								<td>0</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<!--底部-->
+			<div class="footer">
+				<div class="footer-sns">
+					<a class="weibo-img" href="#"></a>
+					<a class="wechat-img  position-re" href="#"> </a>
+					<a class="tengxun-img" href="#"></a>
+					<a class="qq-space-img" href="#"></a>
+				</div>
+				<div class=" text-c footer-link">
+					<a href="#">关于战队</a>
+					<a href="#">商业合作</a>
+					<a href="#">选手招聘</a>
+					<a href="#">联系我们</a>
+					<a href="#">意见反馈</a>
+					<a href="#">友情链接</a>
+				</div>
+				<div class="footer-copyright text-c">
+					<span>FPX</span>
+				</div>
+			</div>	
+	    </div>
+	</div>
+    <script src="js/xiangqingye.js"></script>
+</body>
+</html>

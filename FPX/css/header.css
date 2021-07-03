@@ -1,0 +1,471 @@
+ul {
+	list-style: none;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(../img/登录bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.position-re {
+	position: relative;
+}
+
+.position-ab {
+	position: absolute;
+}
+
+/*主导航栏*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 1500px;
+	height: 58px;
+	background-color: #CDC2A3;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 80%;
+	height: 58px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.header .inner .login a {
+	margin: 12px 0 0 5rem;
+	float: left;
+	width: 90px;
+	height: 30px;
+	color: black;
+	background: url(../img/登录bg.jpg);
+	border: 2px solid black;
+	text-align: center;
+	line-height: 30px;
+	font-size: 8px;
+	text-decoration: none;
+}
+
+.header .nav {
+	float: right;
+	height: 58px;
+}
+
+.header .inner .navs #current {
+	color: white;
+}
+
+.header .inner .navs a {
+	float: right;
+	width: 85px;
+	height: 58px;
+	border-left: 1px solid #778899;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 58px;
+	font-size: 14px;
+}
+
+.header .inner .navs .subnav {
+	background: url("../img/相关赛事.png");
+	margin: 3.625rem 0 0 0;
+	width: 5.3rem;
+	height: 7.65rem;
+	z-index: 100;
+}
+
+.header .inner .navs .subnav a {
+	width: 5.3rem;
+	height: 2.5rem;
+	color: black;
+	line-height: 2.5rem;
+	border-bottom: 0.0625rem solid #CCCCCC;
+}
+
+.header .inner .navs .subnav a:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus {
+	margin: 12px 0 0 20px;
+	height: 32px;
+	width: 98px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background: url(../img/登录bg.jpg);
+	color: black;
+	text-align: center;
+	line-height: 32px;
+}
+
+/* 设置背景图为空，则现实的为导航栏的背景颜色 */
+.inner .login a:hover {
+	color: white;
+	background: url(); 
+}
+
+.header .inner .nav:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus:hover {
+	color: white;
+	background: url();
+}
+
+/* 第二行导航栏 */
+.header2{
+	width: 1500px;
+	height: 3.75rem ;
+	background: url(../img/h2bg.png) 100px 30px no-repeat ;
+	margin: 0 auto;
+}
+
+.header2left{
+	float: left;
+	height: 2rem;
+	width: 40%;
+	margin: 30px 0 0 130px;
+}
+
+.header2left a{
+	color: #666;
+}
+
+.header2left a:visited{
+	color: #666 ;
+}
+
+/*搜索*/
+.container {
+	float: left;
+	height: 3.75rem;
+	width: 50%;
+	z-index: 100;
+	margin-top: -10px;
+}
+
+.parent {
+	top: 1.5rem;
+	left: 6rem;
+}
+
+.search {
+	width: 600px;
+	height: 2.5rem;
+	border-radius: 18px;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	line-height: 2.5rem;
+}
+
+.btn {
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background: url(../img/搜索.png) no-repeat;
+	top: 13px;
+	left: 37rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/*主要内容*/
+.backG {
+	margin: 2rem auto 0 auto;
+	width: 75rem;
+	height: 41rem;
+}
+
+.main {
+	left: 6.25rem;
+	width: 1000px;
+	height: 40rem;
+	margin-top: -5px;
+}
+
+.right-0 {
+	right: 0;
+}
+
+.prev,
+.next {
+	position: absolute;
+	top: 250px;
+	z-index: 100;
+	width: 50px;
+	height: 80px;
+}
+
+.ul_dian {
+	position: absolute;
+	top: 38rem;
+	right: 3rem;
+	width: 10rem;
+	z-index: 100;
+	height: 1.875rem;
+}
+
+.ul_dian img {
+	float: left;
+}
+
+/*轮播图切换按钮鼠标滑过效果*/
+
+.pic-module img {
+	opacity: 0.2;
+}
+
+.pic-module img:hover {
+	opacity: 1;
+}
+
+
+
+/*菜单栏选项样式*/
+
+.menuwrap {
+	width: 225px;
+	height: 40rem;
+	background-color: #9F9378;
+	opacity: 0.7;
+}
+
+.menuwrap-up {
+	width: 225px;
+	height: 3.1rem;
+	text-align: center;
+	line-height: 3rem;
+	color: black;
+	border-bottom: 3px solid gray;
+	border-right: 3px solid gray;
+	;
+}
+
+.menuwrap-upR {
+	width: 775px;
+	height: 3.1rem;
+	background-color: lightblue;
+	border-bottom: 3px solid gray;
+	opacity: 0.7;
+	color: black;
+	float: right;
+	text-align: center;
+	line-height: 3.1rem;
+}
+
+.menuwrap-upR a{
+	text-decoration: none;
+	color: black;
+}
+
+.menuwrap-option {
+	width: 225px;
+	font-size: 16px;
+}
+
+.menuwrap-option a {
+	display: block;
+	position: relative;
+	margin: auto;
+	height: 65px;
+	width: 170px;
+	line-height: 65px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/*鼠标滑过菜单选项背景颜色改变，和隐藏div显示*/
+
+.menuwrap-option:hover {
+	cursor: pointer;
+	background-color: gray;
+}
+
+.menuwrap-option:hover div {
+	display: block;
+}
+
+.menu-arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 10px;
+}
+
+
+/*页面菜单，鼠标滑过显示div的样式*/
+
+.inner-box {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	left: 224px;
+	top: 0px;
+	float: left;
+	width: 30rem;
+	height: 40rem;
+}
+
+/*两侧小广告*/
+aside{
+	width: 200px;
+	height: 300px;
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	justify-content: flex-end;
+	z-index: 100;
+}
+
+
+/* 近期比赛 */
+.match{
+	width: 1240px;
+	height: 451px;
+	margin: 0 auto;
+}
+
+.match h3{
+	width: 1240px;
+    margin: 0 auto;
+    color: #404040;
+    font-size: 26px;
+    border-bottom: 3px solid #ededee;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.match_list{
+	width: 1240px;
+	height: 374px;
+	margin:  0 auto;
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.match_list table th{
+	color: #666;
+    font-size: 17px;
+	line-height: 24px;
+}
+
+.match_list table td{
+	font-weight: 700;
+    color: #999;
+    font-size: 15px;
+    text-align: center;
+}
+
+.team-name{
+	width: 70px;
+    color: #666;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+
+/*只添加一行时，会发现表格每行的高度变的不同，
+只有当每行内容都填时，高度才会相同（将tbody高度平分））*/
+
+.video{  
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+    color: #cea04a;
+    width: 116px;
+    line-height: 36px; 
+	border: 2px solid #cea04a;
+}
+
+.video:hover{
+	background-color:#cea04a ;
+	color: white;
+}
+
+/*底部*/
+
+/*实现鼠标移至图片，更换图片，背景颜色*/
+
+.weibo-img {
+    background-image: url(../img/uiz11.png);
+}
+
+.weibo-img:hover {
+    background-image: url(../img/uiz15.png);
+}
+
+.wechat-img {
+    background-image: url(../img/uiz12.png);
+}
+
+.wechat-img:hover {
+    background-image: url(../img/uiz16.png);
+}
+
+.tengxun-img {
+    background-image: url(../img/uiz13.png);
+}
+
+.tengxun-img:hover {
+    background-image: url(../img/uiz17.png);
+}
+
+.qq-space-img {
+    background-image: url(../img/uiz14.png);
+}
+
+.qq-space-img:hover {
+    background-image: url(../img/uiz18.png);
+}
+.footer-sns a {
+    display: inline-block;
+    margin: 0 9px;
+    height: 32px;
+    width: 32px;
+}
+
+
+.footer {
+	margin: 10rem auto 0 auto;
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+}
+
+.footer-link {
+	width: 1200px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 2px solid #d0d6d9;
+}
+
+.footer-link a {
+	padding: 0 20px;
+	color: #99a1a6;
+}
+
+.footer-link a:hover {
+	color: burlywood;
+}
+
+.footer-copyright {
+	padding: 20px 0 25px 0;
+	color: #b4bbbf;
+}

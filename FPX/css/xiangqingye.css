@@ -1,0 +1,447 @@
+ul {
+	list-style: none;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.position-re {
+	position: relative;
+}
+
+.position-ab {
+	position: absolute;
+}
+
+/*主导航栏*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 1500px;
+	height: 58px;
+	background-color: #CDC2A3;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 80%;
+	height: 58px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.header .inner .login a {
+	margin: 12px 0 0 5rem;
+	float: left;
+	width: 90px;
+	height: 30px;
+	color: black;
+	background: url(../img/登录bg.jpg);
+	border: 2px solid black;
+	text-align: center;
+	line-height: 30px;
+	font-size: 8px;
+	text-decoration: none;
+}
+
+.header .nav {
+	float: right;
+	height: 58px;
+}
+
+.header .inner .navs #current {
+	color: white;
+}
+
+.header .inner .navs a {
+	float: right;
+	width: 85px;
+	height: 58px;
+	border-left: 1px solid #778899;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 58px;
+	font-size: 14px;
+}
+
+.header .inner .navs .subnav {
+	background: url("../img/相关赛事.png");
+	margin: 3.625rem 0 0 0;
+	width: 5.3rem;
+	height: 7.65rem;
+	z-index: 100;
+}
+
+.header .inner .navs .subnav a {
+	width: 5.3rem;
+	height: 2.5rem;
+	color: black;
+	line-height: 2.5rem;
+	border-bottom: 0.0625rem solid #CCCCCC;
+}
+
+.header .inner .navs .subnav a:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus {
+	margin: 12px 0 0 20px;
+	height: 32px;
+	width: 98px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background: url(../img/登录bg.jpg);
+	color: black;
+	text-align: center;
+	line-height: 32px;
+}
+
+/* 设置背景图为空，则现实的为导航栏的背景颜色 */
+.inner .login a:hover {
+	color: white;
+	background: url(); 
+}
+
+.header .inner .nav:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus:hover {
+	color: white;
+	background: url();
+}
+
+/* 第二行导航栏 */
+.header2{
+	width: 1500px;
+	height: 3.75rem ;
+	background: url(../img/h2bg.png) 100px 30px no-repeat ;
+	margin: 0 auto;
+}
+
+.header2left{
+	float: left;
+	height: 2rem;
+	width: 40%;
+	margin: 30px 0 0 130px;
+}
+
+.header2left a{
+	color: #666;
+}
+
+.header2left a:visited{
+	color: #666 ;
+}
+
+/*搜索*/
+.container {
+	float: left;
+	height: 3.75rem;
+	width: 50%;
+	z-index: 100;
+	margin-top: -10px;
+}
+
+.parent {
+	top: 1.5rem;
+	left: 6rem;
+}
+
+.search {
+	width: 600px;
+	height: 2.5rem;
+	border-radius: 18px;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	line-height: 2.5rem;
+}
+
+.btn {
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background: url(../img/搜索.png) no-repeat;
+	top: 13px;
+	left: 37rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+/* 页面内容去 */
+.content{
+	width: 1500px;
+	height: 1000px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* 战队简介部分 */
+.middle{
+	width: 100%;
+	height: 521px;
+	margin: 0 auto;
+	background: url(../img/contentbg.jpg); 
+}
+
+.middlect{
+	width: 1240px;
+	height: 521px;
+    margin: 0 auto;
+}
+
+.middleleft{
+	width: 530px;
+    height: 521px;
+    padding: 0 37px;
+    margin-left: 37px;
+	display: inline-block;
+}
+
+.middleright{
+	width: 544px;
+	height: 284px;
+    padding-top: 100px;
+	display:inline-block;
+	vertical-align: top ;
+}
+
+.team_name{
+	font-size: 48px;
+    text-align: left;
+    color: #f1f3f6;
+}
+
+.team_en_name{
+	font-size: 24px;
+    text-align: left;
+    color: #f1f3f6;
+    font-weight: 400;
+}
+
+.team_desc{
+	font-size: 14px;
+    text-align: left;
+    color: #f1f3f6;
+    font-weight: 400;
+    line-height: 24px;
+    text-indent: 2em;
+    padding-top: 32px;
+}
+
+/* 现役成员 */
+.member{
+	width: 1240px;
+	height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.member_h3{
+	width: 1240px;
+    margin: 0 auto;
+    color: #404040;
+    font-size: 26px;
+    border-bottom: 3px solid #ededee;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.clearfix{
+	width: 1250px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+.fl{
+	list-style-type: none;
+	width: 240px;
+	height: 220px;
+	display: inline-block;
+}
+
+.pic{
+	width: 236px;
+    height: 165px;
+    position: relative;
+}
+
+.pic img{
+	width: 156px;
+    height: 156px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -83px;
+}
+
+.label{
+	font-size: 14px;
+    text-align: center;
+    border: 1px solid #b6b6b6;
+    border-radius: 20px;
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    padding: 0 5px;
+    color: #b6b6b6;
+}
+
+.name{
+	background: #f1f1f1;
+    height: 50px;
+    line-height: 50px;
+}
+
+.enname{
+	height: 32px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: #404040;
+}
+
+li a:hover{
+	background-color: #F4EFE6;;
+    border: 2px solid #CEA04A;
+	display: block;
+}
+
+
+/* 战队数据 */
+.data_h3{
+	width: 1240px;
+    margin: 0 auto;
+    color: #404040;
+    font-size: 26px;
+    border-bottom: 3px solid #ededee;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+/* 表格 */
+.data_table th{
+	width: 102px;
+	height: 40px;
+    background: #ececec;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.data_table thead tr{
+	display: inline-block;
+}
+
+.line{
+    width: 100%;
+    table-layout: fixed;
+} 
+
+.data_table td{
+	width: 102px;
+	height: 64px;
+    background: #f8f8f8;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    border-bottom: 1px solid #e2e4e5;
+    font-weight: 700;
+}
+
+.tablemin{
+	font-size: 12px;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+/*底部*/
+
+/*实现鼠标移至图片，更换图片，背景颜色*/
+
+.weibo-img {
+    background-image: url(../img/uiz11.png);
+}
+
+.weibo-img:hover {
+    background-image: url(../img/uiz15.png);
+}
+
+.wechat-img {
+    background-image: url(../img/uiz12.png);
+}
+
+.wechat-img:hover {
+    background-image: url(../img/uiz16.png);
+}
+
+.tengxun-img {
+    background-image: url(../img/uiz13.png);
+}
+
+.tengxun-img:hover {
+    background-image: url(../img/uiz17.png);
+}
+
+.qq-space-img {
+    background-image: url(../img/uiz14.png);
+}
+
+.qq-space-img:hover {
+    background-image: url(../img/uiz18.png);
+}
+.footer-sns a {
+    display: inline-block;
+    margin: 0 9px;
+    height: 32px;
+    width: 32px;
+}
+
+
+.footer {
+	margin: 10rem auto 0 auto;
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+}
+
+.footer-link {
+	width: 1200px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 2px solid #d0d6d9;
+}
+
+.footer-link a {
+	padding: 0 20px;
+	color: #99a1a6;
+}
+
+.footer-link a:hover {
+	color: burlywood;
+}
+
+.footer-copyright {
+	padding: 20px 0 25px 0;
+	color: #b4bbbf;
+}

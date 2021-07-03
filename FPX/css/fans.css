@@ -1,0 +1,434 @@
+ul {
+	list-style: none;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(../img/登录bg.jpg);
+	background-size: 100% 100%;
+}
+
+.position-re {
+	position: relative;
+}
+
+.position-ab {
+	position: absolute;
+}
+
+/*主导航栏*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 1500px;
+	height: 58px;
+	background-color: #CDC2A3;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 80%;
+	height: 58px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.header .inner .login a {
+	margin: 12px 0 0 5rem;
+	float: left;
+	width: 90px;
+	height: 30px;
+	color: black;
+	background: url(../img/登录bg.jpg);
+	border: 2px solid black;
+	text-align: center;
+	line-height: 30px;
+	font-size: 8px;
+	text-decoration: none;
+}
+
+.header .nav {
+	float: right;
+	height: 58px;
+}
+
+.header .inner .navs #current {
+	color: white;
+}
+
+.header .inner .navs a {
+	float: right;
+	width: 85px;
+	height: 58px;
+	border-left: 1px solid #778899;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 58px;
+	font-size: 14px;
+}
+
+.header .inner .navs .subnav {
+	background: url("../img/相关赛事.png");
+	margin: 3.625rem 0 0 0;
+	width: 5.3rem;
+	height: 7.65rem;
+	z-index: 100;
+}
+
+.header .inner .navs .subnav a {
+	width: 5.3rem;
+	height: 2.5rem;
+	color: black;
+	line-height: 2.5rem;
+	border-bottom: 0.0625rem solid #CCCCCC;
+}
+
+.header .inner .navs .subnav a:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus {
+	margin: 12px 0 0 20px;
+	height: 32px;
+	width: 98px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background: url(../img/登录bg.jpg);
+	color: black;
+	text-align: center;
+	line-height: 32px;
+}
+
+/* 设置背景图为空，则现实的为导航栏的背景颜色 */
+.inner .login a:hover {
+	color: white;
+	background: url(); 
+}
+
+.header .inner .nav:hover {
+	color: white;
+}
+
+.header .inner .navs .joinus:hover {
+	color: white;
+	background: url();
+}
+
+/* 第二行导航栏 */
+.header2{
+	width: 1500px;
+	height: 3.75rem ;
+	background: url(../img/h2bg.png) 100px 30px no-repeat ;
+	margin: 0 auto;
+}
+
+.header2left{
+	float: left;
+	height: 2rem;
+	width: 40%;
+	margin: 30px 0 0 130px;
+}
+
+.header2left a{
+	color: #666;
+}
+
+.header2left a:visited{
+	color: #666 ;
+}
+
+/*搜索*/
+.container {
+	float: left;
+	height: 3.75rem;
+	width: 50%;
+	z-index: 100;
+	margin-top: -10px;
+}
+
+.parent {
+	top: 1.5rem;
+	left: 6rem;
+}
+
+.search {
+	width: 600px;
+	height: 2.5rem;
+	border-radius: 18px;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	line-height: 2.5rem;
+}
+
+.btn {
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background: url(../img/搜索.png) no-repeat;
+	top: 13px;
+	left: 37rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/* 个人信息界面 */
+.tit{
+	width: 1500px;
+	height: 400px;
+	margin: 0 auto;
+
+}
+
+.tit_inf{
+	width: 75%;
+	height: 400px;
+	margin: 0 auto;
+	border: 3px whitesmoke solid;
+	margin-top: 10px;
+	background: url(../img/infpho.jpg);
+	background-size: 100% 100%;
+}
+
+.inf_content{
+	height: 200px;
+	margin-top:200px;
+}
+
+.pho{
+	width: 100px;
+    height: 100px;
+	margin: 0 auto;
+}
+
+.text{
+	height: 80px;
+	margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 4px rgb(0 0 0 / 60%);
+}
+
+.information{
+	width:1050px;
+	height: 270px;
+	border: 5px lightgrey solid;
+	margin: 10px 225px 0 225px;
+	background-color: white;
+}
+
+.information li{
+	margin: 1rem 0 0 5rem;
+	color: gray;
+    text-shadow: 0 0 4px rgb(250 250 250 / 60%);
+}
+
+.information_pho{
+    width: 6rem;
+    text-align: center;
+    line-height: 1.5rem;
+    background: url(../img/登录bg.jpg);
+    border-radius: 30px;
+	margin-top: 1rem;
+}
+
+.information_pho a{
+	color:white;
+}
+
+.information_pho a:hover{
+	color:#808080;
+}
+
+/* 个人经历界面 */
+.gerenexp{
+	width: 1050px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.expt{
+	width: 1050px;
+    margin: 0 auto;
+    color: #404040;
+    font-size: 20px;
+    border-bottom: 3px solid #ededee;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.exp{
+	width: 1060px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.school{
+	width: 330px;
+	height: 250px;
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.schoolname{
+	font-size: 16px;
+    text-align: center;
+    border: 2px solid #b6b6b6;
+    border-radius: 20px;
+    padding: 0 5px;
+    color: #CDC2A3;
+}
+
+/* 附加内容区（点击三张图片可查看详情） */
+#box1{
+	width:231px;
+	position:fixed;
+	left:234px;
+	top:300px;
+	height:300px;
+	background-color: white;
+	z-index: 9999;
+	display: none;
+	border: 4px orange solid;
+}
+
+#box2{
+	width:230px;
+	position:fixed;
+	left:600px;
+	top:300px;
+	height:300px;
+	background-color: white;
+	z-index: 9999;
+	display: none;
+	border: 4px orange solid;
+}
+
+#box3{
+	width:230px;
+	position:fixed;
+	left:965px;
+	top:300px;
+	height:300px;
+	background-color: white;
+	z-index: 9999;
+	display: none;
+	border: 4px orange solid;
+}
+
+.boxtop{
+	width: 230px;
+	height: 100px;
+}
+
+.boxbottom{
+	width: 230px;
+	height: 200px;
+}
+
+/* X按钮，关闭附加区 */
+.error1{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor: pointer;
+}
+
+.error2{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor: pointer;
+}
+
+.error3{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor: pointer;
+}
+
+/*底部*/
+
+/*实现鼠标移至图片，更换图片，背景颜色*/
+
+.weibo-img {
+    background-image: url(../img/uiz11.png);
+}
+
+.weibo-img:hover {
+    background-image: url(../img/uiz15.png);
+}
+
+.wechat-img {
+    background-image: url(../img/uiz12.png);
+}
+
+.wechat-img:hover {
+    background-image: url(../img/uiz16.png);
+}
+
+.tengxun-img {
+    background-image: url(../img/uiz13.png);
+}
+
+.tengxun-img:hover {
+    background-image: url(../img/uiz17.png);
+}
+
+.qq-space-img {
+    background-image: url(../img/uiz14.png);
+}
+
+.qq-space-img:hover {
+    background-image: url(../img/uiz18.png);
+}
+.footer-sns a {
+    display: inline-block;
+    margin: 0 9px;
+    height: 32px;
+    width: 32px;
+}
+
+
+.footer {
+	margin: 10rem auto 0 auto;
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+}
+
+.footer-link {
+	width: 1200px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 2px solid #d0d6d9;
+}
+
+.footer-link a {
+	padding: 0 20px;
+	color: #99a1a6;
+}
+
+.footer-link a:hover {
+	color: burlywood;
+}
+
+.footer-copyright {
+	padding: 20px 0 25px 0;
+	color: #b4bbbf;
+}
